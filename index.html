@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinebility</title>
+    <link rel="stylesheet" href="styles/movies.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/movie-preview.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+  </head>
+  <body>
+    <nav class="sidebar">
+      <div class="general-movies">Genre</div>
+      <div class="genre" id="adventure">Adventure</div>
+      <div class="genre" id="fantasy">Fantasy</div>
+      <div class="genre" id="animation">Animation</div>
+      <div class="genre" id="drama">Drama</div>
+      <div class="genre" id="horror">Horror</div>
+      <div class="genre" id="action">Action</div>
+      <div class="genre" id="comedy">Comedy</div>
+      <div class="genre" id="history">History</div>
+      <div class="genre" id="western">Western</div>
+      <div class="genre" id="thriller">Thriller</div>
+      <div class="genre" id="crime">Crime</div>
+      <div class="genre" id="documentary">Documentary</div>
+      <div class="genre science-fiction" id="sciencefiction">
+        Science Fiction
+      </div>
+      <div class="genre" id="mystery">Mystery</div>
+      <div class="genre" id="music">Music</div>
+      <div class="genre" id="romance">Romance</div>
+      <div class="genre" id="family">Family</div>
+      <div class="genre" id="war">War</div>
+      <div class="genre" id="tvMovie">TV Movie</div>
+    </nav>
+    <nav class="header">
+      <div class="logo-container">
+        <img
+          src="images/icons/cinema.png"
+          alt="cinema-logo"
+          class="logo js-logo"
+          title="home"
+        />
+        <p>Popflix</p>
+      </div>
+    </nav>
+    <main>
+      <div class="genre-title js-genre-title"></div>
+      <div class="main js-movies-grid full-movie-previews"></div>
+    </main>
+    <script type="module" src="movies.js"></script>
+  </body>
+</html>

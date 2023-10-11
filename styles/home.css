@@ -1,0 +1,106 @@
+.home-preview div {
+  color: white;
+}
+
+.movies-scrollbar {
+  overflow-x: scroll;
+  display: flex;
+  margin-left: 750px;
+  margin-top: -100px;
+}
+
+.poster-container img {
+  height: 150px;
+  margin-right: 10px;
+  border-radius: 12px;
+}
+
+.is-home {
+  position: absolute;
+  top: 80px;
+}
+
+.home-preview {
+  background-repeat  : no-repeat,
+                       no-repeat;
+  background-position: center;
+  margin-right: 12px;
+  margin-bottom: 40px;
+  height: 400px;
+  backdrop-filter: 100;
+  border-radius: 8px;
+  padding-top: 60px;
+  padding-left: 60px;
+  position: relative;
+}
+
+.home-preview .release-year {
+  margin-right: 8px;
+  color: rgb(141, 141, 141);
+  font-weight: 400;
+}
+
+.home-preview .rating {
+  background: rgba(47, 47, 47, 0.7);
+  padding: 2px 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.home-preview button {
+  border: none;
+  color: white;
+  background-color: rgb(253, 14, 14);
+  padding: 12px 12px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 42px;
+  margin-bottom: 8px;
+  width: 50%;
+}
+
+.movie-stats {
+  display: flex;
+  align-items: center;
+}
+
+#js-poster-home {
+  height: 180px;
+}
+
+.home-preview .genres {
+  text-transform: capitalize;
+  margin-top: 10px;
+  color: rgb(141, 141, 141);
+  margin-bottom: 12px;
+}
+
+.home-preview .description {
+  width: 50%;
+  color: rgb(141, 141, 141);
+  line-height: 25px;
+  margin-bottom: 18px;
+}
+
+.play-icon {
+  height: 30px;
+  position: absolute;
+  left: 5px;         
+}
+
+.watch-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.watch-container button {
+  padding-left: 37px;
+}

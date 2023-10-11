@@ -1,0 +1,74 @@
+.sidebar {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  width: 180px;
+  display: grid;
+  row-gap: 14px;
+  max-height: calc(110vh - 9rem);
+  overflow-y: auto;
+  padding-right: 180px;
+}
+
+.general-movies,
+.genre {
+  color: gray;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.genre {
+  transition: 0.4s;
+}
+
+.genre:hover {
+  color: white;
+}
+
+.general-movies {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.logo {
+  height: 100px;
+  margin-left: -20px;
+}
+
+.logo-container p {
+  position: absolute;
+  left: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  margin-top: 6px;
+}
+
+.header {
+  position: fixed;
+  left: 0px;
+  top: 0;
+  right: 0;
+  background-color: black;
+  height: 90px;
+  z-index: 1;
+  padding-bottom: 80px;
+}
+
+.science-fiction {
+  width: 140px;
+}
+
+
+

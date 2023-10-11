@@ -1,0 +1,116 @@
+.js-movies-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 8px;
+  row-gap: 14px;
+  top: 80px;
+  overflow-x: none;
+  margin-top: 60px;
+}
+
+.movie-title {
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.movie-preview {
+  width: 200px;
+}
+
+.star {
+  height: 20px; 
+  margin-right: 2px;
+}
+
+.rating {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.poster img{
+  border-radius: 12px;
+  height: 100%;
+
+}
+
+.poster {
+  height: 300px;
+  width: 100px;
+
+}
+
+.release {
+  color: white;
+  padding: 2px 5px;
+  background-color: rgb(38, 38, 38);
+  font-size: 14px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.section {
+  margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  width: 100%;
+}
+
+.weekly-trending-movies,
+.top-rated-movies,
+.upcoming-movies {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.movie-preview-home {
+  margin-right: 16px;
+  min-width: 200px;
+}
+
+.info {
+  width: 100%;
+}
+
+.home-container {
+  margin-bottom: 30px;
+}
+
+.load-button {
+  display: flex;
+  justify-content: center;
+  width: 500%;
+  margin-top: 20px;
+}
+
+.load-button button {
+  border: none;
+  background-color: red;
+  color: white;
+  padding: 10px 14px; 
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.genre-title {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  left: 180px;
+  top: 100px;
+  padding-left: 20px;
+  font-size: 26px;
+}
+
+
+
+

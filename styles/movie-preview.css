@@ -1,0 +1,144 @@
+.full-movie-preview {
+  display: flex;
+  padding: 14px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.is-on-preview {
+  position: absolute;
+  top: 90px;
+}
+
+.poster-container img {
+  height: 340px;
+}
+
+.info-container {
+  margin-top: 24px;
+  margin-left: 10px;  
+}
+
+.info-container .title {
+  font-size: 34px;
+  width: 480px;
+}
+
+.info-container .rating {
+  color: rgb(108, 108, 108);
+  font-size: 16px;
+}
+
+.info-container .release {
+  color: rgb(108, 108, 108);
+  font-size: 16px;
+  background: none;
+}
+
+.full-movie-stats {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.dot {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(108, 108, 108);
+}
+
+.runtime {
+  color:  rgb(108, 108, 108);
+  font-size: 16px;
+}
+
+.mpaa {
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 15px;
+  background-color: rgb(47, 47, 47);
+  padding: 2px;
+}
+
+.genres-list {
+  color: rgb(108, 108, 108);
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.movie-overview {
+  color: white;
+  width: 600px;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+.actors {
+  margin-top: 24px;
+  line-height: 23px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.actors,
+.directors {
+  display: grid;
+  grid-template-columns: 100px 470px;
+  color: white;
+  row-gap: 12px;
+}
+
+.label {
+  color: rgb(108, 108, 108);
+}
+
+.recommended-movies-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow-x: scroll;
+  margin-top: -25px;
+}
+
+.recommended-movies-container .recommended-movies {
+  margin-top: 50px;
+  min-width: 220px;
+  padding-right: 20px;
+}
+
+.js-header {
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  overflow-x: none;
+}
+
+#js-more-link,
+#js-less-link {
+  color: rgb(152, 99, 0);
+  cursor: pointer;
+}
+
+.js-trailers iframe {
+  border: none;
+  margin-right: 8px;
+  border-radius: 12px;
+  min-width: 400px;
+  height: 220px;
+} 
+
+.js-trailers {
+  display: flex;
+  overflow-x: scroll;
+  width: 850px;
+}
+
+.trailers-header {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 28px;
+  margin-bottom: 22px;
+}
